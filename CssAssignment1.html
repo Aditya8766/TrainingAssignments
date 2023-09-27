@@ -1,0 +1,148 @@
+<!--Assignment on css upto flexbox topic-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Assignment</title>
+    <style>
+      /* General Styles */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #666;
+      }
+
+      /* Container Styles */
+      .container {
+        text-align: center;
+      }
+
+      /* Section Styles */
+      .section {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 10px;
+        max-width: 600px;
+        border-radius: 5px;
+        position: relative;
+      }
+
+      /* Title Styles */
+      .section h2 {
+        color: #333;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+      }
+
+      /* Content Styles */
+      .section p {
+        margin-bottom: 10px;
+      }
+
+      /* Introduction to CSS Positioning */
+      .introduction {
+        background-color: #e0e0e0;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        left: auto;
+        z-index: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Introduction to CSS</h1>
+
+    <div class="container">
+      <div class="section introduction">
+        <h2>Introduction to CSS Positioning</h2>
+        <p>Positioning content with CSS.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>What is CSS?</h2>
+        <p>The role of CSS in web development.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Basic CSS Properties</h2>
+        <p>width, height, and color properties.</p>
+        <p>Applying colors using various methods.</p>
+        <p>padding, margin, and border properties.</p>
+        <p>Understanding the CSS Box Model.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Responsive Design</h2>
+        <p>
+          Setting width and height using percentages and viewport height (vh)
+          units.
+        </p>
+        <p>Introduction to different CSS units (px, em, rem, etc.).</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Display Property</h2>
+        <p>
+          display property and its values: block, inline, none, inline-block,
+          flex.
+        </p>
+        <p>The significance of each display value in layout.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Positioning Elements</h2>
+        <p>
+          position property and its values: absolute, relative, static, fixed.
+        </p>
+        <p>How to position elements within a web page.</p>
+        <p>Understanding the z-index property.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Backgrounds and Cursors</h2>
+        <p>Using the background property for styling.</p>
+        <p>Changing the cursor with the cursor property.</p>
+        <p>Exploring pointer-events for interaction control.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="section">
+        <h2>Flexbox Layout</h2>
+        <p>Introduction to Flexbox.</p>
+        <p>flex-direction, justify-content, and align-items properties.</p>
+        <p>Creating flexible and responsive layouts.</p>
+      </div>
+    </div>
+  </body>
+</html>
